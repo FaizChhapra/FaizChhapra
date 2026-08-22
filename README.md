@@ -33,6 +33,12 @@ For me, the interesting part is not building another spreadsheet, model, or dash
 |:---|:---|:---|
 | Start with the financial question and the decision it needs to support. | Organize the data, understand the drivers, test assumptions, and investigate what does not make sense. | Explain the result, the tradeoffs, and where judgment is still required. |
 
+<br />
+
+<div align="center">
+  <img src="./assets/living-financial-model.svg" width="100%" alt="Animated illustrative financial model showing a change in WACC and implied value" />
+</div>
+
 ## My toolkit in practice
 
 **Planning and performance**  
