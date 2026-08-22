@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="420" viewBox="0 0 1000 420" role="img" aria-labelledby="title description">
+  <title id="title">Living financial model animation</title>
+  <desc id="description">An illustrative financial model calculates free cash flow and implied value as assumptions change.</desc>
+
+  <rect x="2" y="2" width="996" height="416" rx="18" fill="#0d1117" stroke="#30363d" stroke-width="4"/>
+
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">
+    <rect x="2" y="2" width="996" height="42" rx="16" fill="#161b22"/>
+    <rect x="2" y="28" width="996" height="16" fill="#161b22"/>
+    <circle cx="24" cy="22" r="6" fill="#f85149"/>
+    <circle cx="44" cy="22" r="6" fill="#d29922"/>
+    <circle cx="64" cy="22" r="6" fill="#3fb950"/>
+    <text x="92" y="28" fill="#c9d1d9" font-size="14">FAIZ_MODEL.xlsx</text>
+    <text x="968" y="28" fill="#7d8590" font-size="12" text-anchor="end">ILLUSTRATIVE</text>
+
+    <rect x="20" y="58" width="960" height="34" rx="5" fill="#161b22" stroke="#30363d"/>
+    <rect x="20" y="58" width="62" height="34" rx="5" fill="#21262d"/>
+    <text x="51" y="80" fill="#8b949e" font-size="13" text-anchor="middle">FX</text>
+    <text x="98" y="80" fill="#c9d1d9" font-size="13">=NPV(WACC, FCF_2025:FCF_2028) + PV(Terminal Value)</text>
+
+    <!-- Sheet frame -->
+    <rect x="20" y="108" width="710" height="260" fill="#0d1117" stroke="#30363d"/>
+    <rect x="20" y="108" width="710" height="34" fill="#161b22"/>
+    <rect x="20" y="108" width="54" height="260" fill="#161b22"/>
+
+    <!-- Grid -->
+    <g stroke="#30363d" stroke-width="1">
+      <path d="M74 108 V368 M290 108 V368 M400 108 V368 M510 108 V368 M620 108 V368 M730 108 V368"/>
+      <path d="M20 142 H730 M20 180 H730 M20 218 H730 M20 256 H730 M20 294 H730 M20 332 H730 M20 368 H730"/>
+    </g>
+
+    <!-- Column and row headers -->
+    <g fill="#8b949e" font-size="12" text-anchor="middle">
+      <text x="182" y="130">METRIC</text>
+      <text x="345" y="130">2025E</text>
+      <text x="455" y="130">2026E</text>
+      <text x="565" y="130">2027E</text>
+      <text x="675" y="130">2028E</text>
+      <text x="47" y="166">1</text>
+      <text x="47" y="204">2</text>
+      <text x="47" y="242">3</text>
+      <text x="47" y="280">4</text>
+      <text x="47" y="318">5</text>
+      <text x="47" y="356">6</text>
+    </g>
+
+    <g fill="#e6edf3" font-size="13">
+      <text x="92" y="166">Revenue</text>
+      <text x="92" y="204">EBITDA Margin</text>
+      <text x="92" y="242">Free Cash Flow</text>
+      <text x="92" y="280">WACC</text>
+      <text x="92" y="318">Terminal Growth</text>
+      <text x="92" y="356">Implied Value</text>
+    </g>
+
+    <g fill="#c9d1d9" font-size="13" text-anchor="end">
+      <text x="382" y="166">100.0</text><text x="492" y="166">108.0</text><text x="602" y="166">116.6</text><text x="712" y="166">125.9</text>
+      <text x="382" y="204">18.0%</text><text x="492" y="204">18.5%</text><text x="602" y="204">19.0%</text><text x="712" y="204">19.4%</text>
+      <text x="382" y="242">11.4</text><text x="492" y="242">12.7</text><text x="602" y="242">14.1</text><text x="712" y="242">15.6</text>
+      <text x="382" y="318">2.5%</text>
+    </g>
+
+    <!-- Animated assumption and result -->
+    <text x="382" y="280" fill="#d29922" font-size="13" text-anchor="end">9.5%
+      <animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0;0.34;0.42;0.88;1" dur="5.5s" repeatCount="indefinite"/>
+    </text>
+    <text x="382" y="280" fill="#3fb950" font-size="13" text-anchor="end" opacity="0">9.0%
+      <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.34;0.42;0.88;1" dur="5.5s" repeatCount="indefinite"/>
+    </text>
+    <text x="382" y="356" fill="#d29922" font-size="14" font-weight="700" text-anchor="end">$176.40
+      <animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0;0.56;0.64;0.9;1" dur="5.5s" repeatCount="indefinite"/>
+    </text>
+    <text x="382" y="356" fill="#3fb950" font-size="14" font-weight="700" text-anchor="end" opacity="0">$184.20
+      <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.56;0.64;0.9;1" dur="5.5s" repeatCount="indefinite"/>
+    </text>
+
+    <!-- Active cell moves from forecast to assumption to value -->
+    <rect x="400" y="142" width="110" height="38" fill="none" stroke="#3fb950" stroke-width="3">
+      <animate attributeName="x" values="400;400;290;290;290;400" keyTimes="0;0.24;0.34;0.62;0.88;1" dur="5.5s" repeatCount="indefinite"/>
+      <animate attributeName="y" values="142;218;256;332;332;142" keyTimes="0;0.24;0.34;0.62;0.88;1" dur="5.5s" repeatCount="indefinite"/>
+      <animate attributeName="width" values="110;110;110;110;110;110" dur="5.5s" repeatCount="indefinite"/>
+    </rect>
+
+    <!-- Interpretation panel -->
+    <rect x="752" y="108" width="228" height="260" rx="8" fill="#161b22" stroke="#30363d"/>
+    <text x="772" y="140" fill="#8b949e" font-size="12" letter-spacing="1">MODEL OUTPUT</text>
+    <text x="772" y="183" fill="#e6edf3" font-size="13">WACC</text>
+    <text x="958" y="183" fill="#d29922" font-size="17" text-anchor="end">9.5%
+      <animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0;0.34;0.42;0.88;1" dur="5.5s" repeatCount="indefinite"/>
+    </text>
+    <text x="958" y="183" fill="#3fb950" font-size="17" text-anchor="end" opacity="0">9.0%
+      <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.34;0.42;0.88;1" dur="5.5s" repeatCount="indefinite"/>
+    </text>
+    <text x="772" y="221" fill="#e6edf3" font-size="13">Implied Value</text>
+    <text x="958" y="221" fill="#d29922" font-size="17" font-weight="700" text-anchor="end">$176.40
+      <animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0;0.56;0.64;0.9;1" dur="5.5s" repeatCount="indefinite"/>
+    </text>
+    <text x="958" y="221" fill="#3fb950" font-size="17" font-weight="700" text-anchor="end" opacity="0">$184.20
+      <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.56;0.64;0.9;1" dur="5.5s" repeatCount="indefinite"/>
+    </text>
+    <path d="M772 244 H958" stroke="#30363d"/>
+    <text x="772" y="274" fill="#8b949e" font-size="12">Question</text>
+    <text x="772" y="298" fill="#e6edf3" font-size="12">What drives the value?</text>
+    <text x="772" y="329" fill="#8b949e" font-size="12">Answer</text>
+    <text x="772" y="353" fill="#e6edf3" font-size="12">Cash flow and discount rate.</text>
+
+    <rect x="20" y="382" width="154" height="25" rx="5" fill="#1f6f43"/>
+    <text x="97" y="399" fill="#ffffff" font-size="11" text-anchor="middle">DCF MODEL</text>
+    <text x="190" y="399" fill="#7d8590" font-size="11">Model the drivers. Test the assumptions.</text>
+  </g>
+</svg>
