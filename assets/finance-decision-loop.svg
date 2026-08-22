@@ -24,7 +24,7 @@
         <feMergeNode in="SourceGraphic"/>
       </feMerge>
     </filter>
-    <path id="flow-path" d="M218 133 C330 65 420 202 532 133 S742 65 850 133 S1000 190 1062 133"/>
+    <path id="flow-path" d="M218 133 C286 88 342 178 410 133 C478 88 598 178 666 133 C734 88 856 178 924 133 C990 88 1026 172 1062 133"/>
   </defs>
 
   <rect x="2" y="2" width="1196" height="296" rx="28" fill="url(#background)" stroke="#25334a" stroke-width="4"/>
@@ -34,8 +34,8 @@
     <text x="72" y="43" fill="#f4f0e8" font-size="17" font-weight="700" letter-spacing="3">THE FINANCE DECISION LOOP</text>
     <text x="1128" y="43" fill="#8290a6" font-size="13" text-anchor="end" letter-spacing="2">QUESTION → EVIDENCE → JUDGMENT</text>
 
-    <path d="M218 133 C330 65 420 202 532 133 S742 65 850 133 S1000 190 1062 133" fill="none" stroke="#27364c" stroke-width="8" stroke-linecap="round"/>
-    <path d="M218 133 C330 65 420 202 532 133 S742 65 850 133 S1000 190 1062 133" fill="none" stroke="url(#signal)" stroke-width="3" stroke-linecap="round" stroke-dasharray="18 16">
+    <path d="M218 133 C286 88 342 178 410 133 C478 88 598 178 666 133 C734 88 856 178 924 133 C990 88 1026 172 1062 133" fill="none" stroke="#27364c" stroke-width="8" stroke-linecap="round"/>
+    <path d="M218 133 C286 88 342 178 410 133 C478 88 598 178 666 133 C734 88 856 178 924 133 C990 88 1026 172 1062 133" fill="none" stroke="url(#signal)" stroke-width="3" stroke-linecap="round" stroke-dasharray="18 16">
       <animate attributeName="stroke-dashoffset" values="0;-68" dur="2.4s" repeatCount="indefinite"/>
     </path>
 
