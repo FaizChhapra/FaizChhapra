@@ -7,6 +7,12 @@
   <p>I use data and automation to sharpen financial judgment and make decisions clearer.</p>
 
   <p>
+    <img src="https://img.shields.io/badge/FINANCE-00A86B?style=for-the-badge" alt="Finance" />
+    <img src="https://img.shields.io/badge/VALUATION_%26_FORECASTING-F39C12?style=for-the-badge" alt="Valuation and Forecasting" />
+    <img src="https://img.shields.io/badge/DATA_%26_AUTOMATION-0077B5?style=for-the-badge" alt="Data and Automation" />
+  </p>
+
+  <p>
     <a href="https://www.faizchhapra.com">Website</a>
     &nbsp;·&nbsp;
     <a href="https://www.linkedin.com/in/faiz-chhapra/">LinkedIn</a>
@@ -15,7 +21,7 @@
 
 ## I like finance when it leads somewhere.
 
-I work across planning, performance analysis, valuation, and investment research. My background includes pharmaceutical finance, financial reporting, economic research, and finance education.
+I work across planning, performance analysis, valuation, and investment research. My background includes financial reporting, economic research, and finance education.
 
 For me, the interesting part is not building another spreadsheet, model, or dashboard. It is figuring out what changed, why it changed, what it means for the forecast or valuation, and what decision should follow.
 
@@ -26,12 +32,6 @@ For me, the interesting part is not building another spreadsheet, model, or dash
 | **01 · Frame** | **02 · Analyze** | **03 · Communicate** |
 |:---|:---|:---|
 | Start with the financial question and the decision it needs to support. | Organize the data, understand the drivers, test assumptions, and investigate what does not make sense. | Explain the result, the tradeoffs, and where judgment is still required. |
-
-<br />
-
-<div align="center">
-  <img src="./assets/capability-strip.svg" width="100%" alt="Visual summary of planning, valuation, and research capabilities" />
-</div>
 
 ## My toolkit in practice
 
