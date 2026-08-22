@@ -1,10 +1,10 @@
 <div align="center">
-  <img src="./assets/finance-decision-loop.svg" width="100%" alt="Animated finance decision loop: finance, evidence, analysis, and decision" />
+  <img src="./assets/finance-decision-loop.svg" width="100%" alt="Animated finance decision loop showing finance, evidence, analysis, and decision" />
 
   <h1>Faiz Chhapra</h1>
 
   <p><strong>Financial Analysis · Valuation · Forecasting · Investment Research</strong></p>
-  <p>I use data and automation where they sharpen financial judgment—not replace it.</p>
+  <p>I use data and automation to sharpen financial judgment and make decisions clearer.</p>
 
   <p>
     <a href="https://www.faizchhapra.com">Website</a>
@@ -13,46 +13,48 @@
   </p>
 </div>
 
----
+## I like finance when it leads somewhere.
 
-## Finance first. Tools second.
+I work across planning, performance analysis, valuation, and investment research. My background includes pharmaceutical finance, financial reporting, economic research, and finance education.
 
-I am a finance professional working across planning, performance analysis, valuation, and investment research. My experience spans pharmaceutical finance, financial reporting, economic research, and finance education.
+For me, the interesting part is not building another spreadsheet, model, or dashboard. It is figuring out what changed, why it changed, what it means for the forecast or valuation, and what decision should follow.
 
-I like work where the answer is not merely another spreadsheet or chart—it is a clearer decision:
+> Good analysis makes assumptions visible, calculations defensible, and conclusions clear.
 
-- What actually moved versus budget, and why?
-- Which operating drivers matter most to the forecast?
-- What cash flows and assumptions support the valuation?
-- What evidence would change the investment view?
+## How I think
 
-> Good analysis makes assumptions visible, calculations defensible, and conclusions explainable.
-
-## How I work
-
-| **01 · Frame** | **02 · Analyze** | **03 · Decide** |
+| **01 · Frame** | **02 · Analyze** | **03 · Communicate** |
 |:---|:---|:---|
-| Start with the financial question, stakeholder, and decision context. | Structure the data, model the drivers, test assumptions, and investigate variance. | Translate the result into a clear recommendation, limitation, or next question. |
+| Start with the financial question and the decision it needs to support. | Organize the data, understand the drivers, test assumptions, and investigate what does not make sense. | Explain the result, the tradeoffs, and where judgment is still required. |
 
-## Where I apply the toolkit
+<br />
 
-- **Planning & performance:** budgeting, forecasting, budget-to-actual analysis, working capital, reconciliations, and management reporting
-- **Valuation & investment analysis:** DCF, scenario and sensitivity analysis, fundamental research, portfolio context, and credit risk
-- **Data-enabled finance:** Excel, SAP S/4HANA, Power BI, Python, SQL, and R used to make analysis more repeatable and decision-ready
+<div align="center">
+  <img src="./assets/capability-strip.svg" width="100%" alt="Visual summary of planning, valuation, and research capabilities" />
+</div>
 
-## What I am building
+## My toolkit in practice
 
-I am developing a small number of finance projects designed to withstand professional and interview-level scrutiny. I will publish them when the underlying financial logic, validation, documentation, and limitations are ready for external review.
+**Planning and performance**  
+Budgeting, forecasting, budget versus actual analysis, working capital, reconciliations, and management reporting.
 
-The standard is simple: **finance relevance first, technical sophistication second, evidence throughout.**
+**Valuation and investment analysis**  
+DCF, scenario and sensitivity analysis, fundamental research, portfolio context, and credit risk.
+
+**Data and technology in finance**  
+Excel, SAP S/4HANA, Power BI, Python, SQL, and R used to make analysis more repeatable and useful.
+
+## A living portfolio
+
+This GitHub is a living record of the financial models, research, dashboards, and tools I build over time. Some ideas will begin as experiments. Others will become detailed case studies. I will keep improving the work as my thinking, experience, and toolkit grow.
+
+What matters to me is that the financial logic is understandable, the assumptions are visible, and the result is genuinely useful.
 
 ## Current perspective
 
-- Financial Coordinator at **Zydus Pharmaceuticals (USA)**
-- M.S. in Finance from **Gies College of Business, University of Illinois Urbana-Champaign**
-- Focused on roles and problems across corporate finance, valuation, investment research, and data-enabled decision support
+I currently work as a Financial Coordinator at **Zydus Pharmaceuticals (USA)** and hold an M.S. in Finance from **Gies College of Business, University of Illinois Urbana Champaign**. I am especially interested in problems across corporate finance, valuation, investment research, and decision support.
 
----
+<br />
 
 <div align="center">
   <strong>Finance is the core. Technology is the tool. GitHub is the evidence.</strong>
